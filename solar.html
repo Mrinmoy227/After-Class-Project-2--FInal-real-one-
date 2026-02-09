@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Solar System</title>
+</head>
+<body>
+    <div id="content"></div>
+
+    <script>
+        // Create heading
+        const heading = document.createElement("h1");
+        heading.textContent = "Our solar system";
+        heading.style.color = "#00E5FF"; // cyan color
+        heading.style.fontFamily = "Arial";
+
+        // Create paragraph
+        const paragraph = document.createElement("p");
+        paragraph.textContent = "The solar system consists of the Sun and everything that orbits, or travels around, the Sun. This includes the eight planets and their moons, dwarf planets, and countless asteroids, comets, and other small, icy objects. However, even with all these things, most of the solar system is empty space.";
+        paragraph.style.fontFamily = "Arial";
+        paragraph.style.fontSize = "16px";
+
+        // Add to page
+        const container = document.getElementById("content");
+        container.appendChild(heading);
+        container.appendChild(paragraph);
+    </script>
+</body>
+</html>
